@@ -1,0 +1,223 @@
+/* limpando as formataçoes padroes */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Fjalla One', sans-serif;
+    background: #252526;
+    font-size: 1em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ***Layout*** */
+
+#cabecalho {
+    background-color: #55F250;
+    padding: 15px;
+    text-align: center;
+	
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+#area-principal {
+	/* background: #F22E2E; */
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+/* #menu-lateral {
+	background: #F22E2E;
+} */
+
+#conteudo {
+	width: 660px;
+	float: left;
+}
+
+#menu-lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagens {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #F2F2F2;
+}
+
+.postagens img {
+	width: 620px;
+}
+
+.conteudo-lateral {
+	background: #F22E3E;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #ccc;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 8px;
+	color: #F2F2F2;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted;
+}
+
+/* ***Formatações do menu*** */
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #F22E2E;
+	padding: 5px 8px;
+	border-radius: 10px;
+}
+a:hover {
+	color: #F22E2E;
+	background: #55F250;
+}
+
+#menu a:link, #menu a:visited {
+    color: #252526;
+	padding: 10px 14px;
+	border-radius: 10px;
+}
+#menu a:hover {
+	color: #F22E3E;
+	background: #252526;
+}
+
+.postagem-lateral a:link, .categoria-link a:link, .postagem-lateral a:visited, .categoria-link a:visited {
+    color: #55F250;
+}
+.postagem-lateral a:hover, .categoria-link a:hover {
+	color: #55F250;
+	background: none;
+	text-decoration: underline;
+}
+
+.postagem-completa a:link, .postagem-completa a:visited{
+	color: #F22E2E;
+}
+
+.postagem-completa a:hover {
+	color: #F22E2E;
+	background: none;
+	text-decoration: underline;
+}
+
+
+/* ***Formatações gerais*** */
+
+h1 {
+    color: #252526;
+    font-size: 4em;
+}
+
+h2 {
+	color: #F22E3E;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #F22E3E;
+	background: #252526;
+	padding: 5px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #F22E3E;
+	padding: 5px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+ul li {
+	padding: 5px 20px;
+}
+
+.red {
+    color: #F22E2E;
+}
+
+.data-postagem {
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #F22E2E;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.categoria-link {
+	margin-bottom: 5px;
+	font-size: 1.3em;
+}
+
+.citacao {
+	border-left: 2px solid #F22E2E;
+	padding: 10px;
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.postagem-completa {
+	font-size: 1em;
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 500;
+}
